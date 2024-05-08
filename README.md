@@ -7,6 +7,7 @@ The landing page was forked from [Anjasfedo](https://github.com/Anjasfedo) all c
 ## Development
 
 ```bash
-yarn dev --open
+npm install
+npm run dev --open
 ```
 will open up the landing page at http://localhost:5173
