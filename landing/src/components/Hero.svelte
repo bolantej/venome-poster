@@ -17,20 +17,13 @@
 			<span class="text-primary-700">Venome</span>
 		</h2>
 		<p
-			class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full"
+			class="text-xl sm:text-2xl md:text-3xl max-w-[1000px] mx-auto w-full font-light"
 		>
-			<span class="text-primary-700">Store</span>,
-			<span class="text-primary-700">Visualize</span>, and
-			<span class="text-primary-700">Analyze</span>
-			venom proteins from the
-			<u
-				><a
-					href="https://venombiochemistrylab.weebly.com/"
-					target="_blank"
-					class="duration-200 hover:text-primary-700 cursor-pointer"
-					>OSU Venom Biochemistry Lab</a
-				></u
-			>
+			Accelerating venom protein research with a platform to
+			<span class="font-medium">Store</span>,
+			<span class="font-medium">Visualize</span>, and
+			<span class="font-medium">Analyze</span>
+			venom proteins.
 		</p>
 		<Cta />
 	</div>
