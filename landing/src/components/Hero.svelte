@@ -2,11 +2,14 @@
 	import SectionWrap from "./SectionWrap.svelte";
 	import Header from "./Header.svelte";
 	import Cta from "./Cta.svelte";
-	import Star from "./Star.svelte";
 </script>
 
-<SectionWrap>
+<div
+	style="position: sticky; top: 0; background-color: hsla(0, 0%, 100%, 0.5); backdrop-filter: blur(5px); z-index: 999;"
+>
 	<Header />
+</div>
+<SectionWrap>
 	<div
 		class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14"
 	>
