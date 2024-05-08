@@ -658,13 +658,10 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-flowbite-svelte-icons@^2.0.0-next.7:
-  version "2.0.0-next.7"
-  resolved "https://registry.yarnpkg.com/flowbite-svelte-icons/-/flowbite-svelte-icons-2.0.0-next.7.tgz#68e082778add80bb6eb56ad42410f5bcd1fb771a"
-  integrity sha512-gN4cU1A8ZfCue8r74V/WDGchvN0s4q3GWE/1xlx7vi6H6wVuXFqMClMKw8oCQhV/7HhtRMAwv03GnL2Lr/zCSg==
-  dependencies:
-    tailwind-merge "^2.3.0"
-    tailwindcss "^3.4.3"
+flowbite-svelte-icons@^1.3.1:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/flowbite-svelte-icons/-/flowbite-svelte-icons-1.6.0.tgz#c88a8af200cce6ff214055bba6a26e06f4a3a32b"
+  integrity sha512-GSd48qwyQUtq9E5oSVYAMGnu4GWuLQmLi+QcDU/QPX1TGGnRqon5oOsmPRRhC6cR6bdm+ampUGMKA1vOjf7wxw==
 
 flowbite-svelte@^0.46.1:
   version "0.46.1"
@@ -1271,7 +1268,7 @@ tailwind-merge@^2.3.0:
   dependencies:
     "@babel/runtime" "^7.24.1"
 
-tailwindcss@^3.4.1, tailwindcss@^3.4.3:
+tailwindcss@^3.4.1:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.4.3.tgz#be48f5283df77dfced705451319a5dffb8621519"
   integrity sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==
