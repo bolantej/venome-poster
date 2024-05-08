@@ -12,3 +12,7 @@ yarn
 yarn dev --open
 ```
 will open up the landing page at http://localhost:5173
+
+## Deployment
+
+On merge to main, will building the landing directory and deploy via github pages automatically to https://venom-biochem-lab.github.io/venome-poster/
