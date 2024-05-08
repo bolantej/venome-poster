@@ -11,18 +11,18 @@ const config = {
 	theme: {
 		extend: {
 			colors: {
-				// flowbite-svelte
 				primary: {
-					50: "#FFF5F2",
-					100: "#FFF1EE",
-					200: "#FFE4DE",
-					300: "#FFD5CC",
-					400: "#FFBCAD",
-					500: "#FE795D",
-					600: "#EF562F",
-					700: "#EB4F27",
-					800: "#CC4522",
-					900: "#A5371B",
+					50: "var(--primary-50)",
+					100: "var(--primary-100)",
+					200: "var(--primary-200)",
+					300: "var(--primary-300)",
+					400: "var(--primary-400)",
+					500: "var(--primary-500)",
+					600: "var(--primary-600)",
+					700: "var(--primary-700)", // flowbite uses this one for 'primary' variants
+					800: "var(--primary-800)",
+					900: "var(--primary-900)",
+					950: "var(--primary-950)",
 				},
 			},
 		},

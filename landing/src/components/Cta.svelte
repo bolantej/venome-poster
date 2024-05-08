@@ -1,12 +1,11 @@
 <script>
-  export let dark;
+	import { Button } from "flowbite-svelte";
+	import { ArrowDownOutline } from "flowbite-svelte-icons";
+	export let dark = true;
 </script>
 
 <div class="flex items-center gap-4">
-  <button class={"specialButton " + (dark ? " bg-[#181b34]" : " ")}>
-    <p class="text-base sm:text-lg md:text-xl">Contact Us</p>
-  </button>
-  <button class={"specialButtonDark"}>
-    <p class="text-base sm:text-lg md:text-xl">Get Started &rarr;</p>
-  </button>
+	<!-- <ArrowDownOutline /> -->
+	<Button size="lg" color="light">Source Code</Button>
+	<Button size="lg" color="light">Live Site</Button>
 </div>

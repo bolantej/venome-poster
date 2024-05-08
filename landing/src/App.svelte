@@ -7,7 +7,7 @@
 </script>
 
 <main
-	class="relative bg-gradient-to-tr from-slate-800 to-slate-900 min-h-screen text-white text-sm sm:text-base flex flex-col"
+	class="relative bg-gradient-to-tr from-primary-200 to-white min-h-screen text-slate text-sm sm:text-base flex flex-col"
 >
 	<div class="inset-0 opacity-10 absolute z-[998] bgGrid"></div>
 	<div class="z-[999]">

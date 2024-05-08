@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	/* color range  which defines flowbite and tailwind primary colors (see tailwind.config.cjs) */
+	--primary-50: #f2f8fd;
+	--primary-100: #e4f0fa;
+	--primary-200: #c4e1f3;
+	--primary-300: #8fc8ea;
+	--primary-400: #54abdc;
+	--primary-500: #2d91ca;
+	--primary-600: #1e74ab;
+	/* flowbite uses this 700 for 'primary' variants on components */
+	--primary-700: #194f73;
+	--primary-800: #194f73;
+	--primary-900: #19405c;
+	--primary-950: #112b40;
+}
+
 html {
 	scroll-behavior: smooth;
 }
