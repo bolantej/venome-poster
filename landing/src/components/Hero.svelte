@@ -19,11 +19,11 @@
 		<p
 			class="text-xl sm:text-2xl md:text-3xl max-w-[1000px] mx-auto w-full font-light"
 		>
-			Accelerating venom protein research with a platform to
+			<i>Accelerating</i> venom protein research with a platform to
 			<span class="font-medium">Store</span>,
 			<span class="font-medium">Visualize</span>, and
 			<span class="font-medium">Analyze</span>
-			venom proteins.
+			venom proteins with computation.
 		</p>
 		<Cta />
 	</div>
