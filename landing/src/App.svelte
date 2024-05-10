@@ -13,7 +13,6 @@
 	<div class="z-[999]">
 		<Hero />
 		<Product />
-		<Review />
 		<Faq />
 		<Conversion />
 	</div>

@@ -4,10 +4,18 @@
 		GithubSolid,
 		ArrowRightOutline,
 		FilePdfSolid,
+		ArrowDownOutline,
 	} from "flowbite-svelte-icons";
+	export let reverse = false;
 </script>
 
-<div class="flex items-center gap-4">
+<div class="flex items-center gap-4 justify-center flex-wrap">
+	<Button size="lg" color="primary" pill href="#project"
+		>Project Overview <span
+			style={reverse ? "transform: rotate(180deg);" : ""}
+			><ArrowDownOutline class="ml-1" /></span
+		>
+	</Button>
 	<Button
 		size="lg"
 		color="light"
@@ -23,6 +31,8 @@
 		>2024 Engineering Expo Poster <FilePdfSolid class="ml-1" />
 	</Button>
 	<Button size="lg" color="primary" disabled pill
-		>Get Started (🚧 Coming Soon) <ArrowRightOutline class="ml-1" /></Button
+		>Live Website (🚧 Coming Soon) <ArrowRightOutline
+			class="ml-1"
+		/></Button
 	>
 </div>

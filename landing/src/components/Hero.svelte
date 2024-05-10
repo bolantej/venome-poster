@@ -4,12 +4,8 @@
 	import Cta from "./Cta.svelte";
 </script>
 
-<div
-	style="position: sticky; top: 0; background-color: hsla(0, 0%, 100%, 0.5); backdrop-filter: blur(5px); z-index: 999;"
->
-	<Header />
-</div>
 <SectionWrap>
+	<Header />
 	<div
 		class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14"
 	>
@@ -22,11 +18,17 @@
 		<p
 			class="text-xl sm:text-2xl md:text-3xl max-w-[1000px] mx-auto w-full font-light"
 		>
-			<i>Accelerating</i> venom protein research with a platform to
-			<span class="font-medium">Store</span>,
-			<span class="font-medium">Visualize</span>, and
-			<span class="font-medium">Analyze</span>
-			venom proteins with computation.
+			A website to
+			<span class="font-medium">Store</span> and
+			<span class="font-medium">Analyze</span> hundreds of
+			<span class="font-medium">venom proteins</span>
+			from the
+			<a
+				href="https://venombiochemistrylab.weebly.com/"
+				target="_blank"
+				class="underline duration-200 hover:text-primary-700 cursor-pointer"
+				>Venom Biochemistry Lab</a
+			> at Oregon State University.
 		</p>
 		<Cta />
 	</div>

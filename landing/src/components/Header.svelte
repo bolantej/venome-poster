@@ -19,19 +19,14 @@
 		</button>
 		<nav class="hidden md:flex items-center gap-4 lg:gap-6">
 			<a
-				href="#product"
+				href="#project"
 				class="duration-200 hover:text-primary-700 cursor-pointer"
-				>Product</a
+				>Project Overview</a
 			>
 			<a
-				href="#review"
+				href="#who-made-venome"
 				class="duration-200 hover:text-primary-700 cursor-pointer"
-				>Review</a
-			>
-			<a
-				href="#faq"
-				class="duration-200 hover:text-primary-700 cursor-pointer"
-				>FAQ</a
+				>Who made Venome?</a
 			>
 		</nav>
 	</div>
