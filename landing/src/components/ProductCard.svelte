@@ -1,4 +1,5 @@
 <script>
+	import { Video, VideoPlaceholder } from "flowbite-svelte";
 	export let reverse = false;
 </script>
 
@@ -18,16 +19,17 @@
 	</div>
 	<div class={"flex flex-col dropShadow overflow-hidden rounded-b-lg "}>
 		<div
-			class="rounded-t-xl h-8 sm:h-10 bg-white opacity-60 flex items-center gap-2"
+			class="rounded-t-xl h-5 sm:h-8 bg-white opacity-60 flex items-center gap-1 pl-2"
 		>
 			{#each [1, 2, 3] as i}
 				<div
-					class="rounded-full aspect-square w-2.5 sm:w-3 bg-primary-300 ml-2"
+					class="rounded-full aspect-square w-2.5 sm:w-3 bg-primary-300 ml-1"
 				></div>
 			{/each}
 		</div>
-		<div class="flex flex-col gap-4 flex-1">
-			<img src={""} alt="product-img" />
+		<div class="flex flex-col flex-1">
+			<!-- <img src={""} alt="product-img" /> -->
+			<Video src="test.mov" autoplay controls loop />
 		</div>
 	</div>
 </div>
