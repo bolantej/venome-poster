@@ -20,11 +20,19 @@
 			</h3>
 		</div>
 
-		<ProductCard>
+		<ProductCard videoSrc="search-demo.mov">
 			<slot>
-				<span class="text-primary-700">Search</span> for hundreds of proteins
+				<span class="text-primary-700">Search</span> Hundreds of Venom Proteins
 			</slot>
-			<slot slot="description">here yee</slot>
+			<slot slot="description">
+				<p class="font-light">
+					<span class="font-medium"
+						>Find the protein you're looking for.</span
+					> You can keyword search the Venom Lab's over 400 proteins found
+					in wasp venoms. You can narrow down the possibilities by applying
+					length, weight, or organism filters too.
+				</p>
+			</slot>
 		</ProductCard>
 
 		<ProductCard reverse>
