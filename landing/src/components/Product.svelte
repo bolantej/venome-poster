@@ -35,16 +35,26 @@
 			</slot>
 		</ProductCard>
 
-		<ProductCard reverse>
+		<ProductCard reverse videoSrc="view-demo.mov">
 			<slot>
 				<span class="text-primary-700">View</span> protein structure
 			</slot>
-			<slot slot="description">here yee</slot>
+			<slot slot="description">
+				<p class="font-light">
+					<span class="font-medium"
+						>Interact with the protein directly.</span
+					>
+					You can view the 3D structure of the protein and learn about
+					the provided information (like organism, method, and more). You
+					can also view computed algorithms on the data in the
+					<i>Computed Insights</i> section of the protein.
+				</p>
+			</slot>
 		</ProductCard>
 
 		<ProductCard>
 			<slot>
-				<span class="text-primary-700">Compare</span> between proteins
+				<span class="text-primary-700">Compare</span> similar proteins
 			</slot>
 			<slot slot="description">here yee</slot>
 		</ProductCard>
