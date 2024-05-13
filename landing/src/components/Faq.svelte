@@ -11,16 +11,19 @@
 		},
 		{
 			name: "Ansen Garvin",
+			link: "http://ansengarvin.com",
 			description:
 				"Senior undergrad, School of EECS at Oregon State University.",
 		},
 		{
 			name: "Cora Bailey",
+			link: "https://www.linkedin.com/in/cora-bailey-a08004243/",
 			description:
 				"Senior undergrad, School of EECS at Oregon State University.",
 		},
 		{
 			name: "Amanda Sinha",
+			link: "https://www.linkedin.com/in/amanda-sinha-310b6921b/",
 			description:
 				"Senior undergrad, School of EECS at Oregon State University.",
 		},

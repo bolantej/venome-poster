@@ -71,7 +71,7 @@
 					> within Venome to find structurally similar proteins. Then,
 					you can use <NewTabLink
 						href="https://github.com/kad-ecoli/TMalign"
-						icon>TM-ALign</NewTabLink
+						icon>TM-Align</NewTabLink
 					> within Venome to compare/superimpose them.
 				</p>
 			</slot>
