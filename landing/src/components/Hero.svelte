@@ -2,6 +2,7 @@
 	import SectionWrap from "./SectionWrap.svelte";
 	import Header from "./Header.svelte";
 	import Cta from "./Cta.svelte";
+	import NewTabLink from "./NewTabLink.svelte";
 </script>
 
 <SectionWrap>
@@ -21,14 +22,12 @@
 			A website to
 			<span class="font-medium">Store</span> and
 			<span class="font-medium">Analyze</span> hundreds of
-			<span class="font-medium">venom proteins</span>
+			<span class="font-medium">Venom Proteins</span>
 			from the
-			<a
-				href="https://venombiochemistrylab.weebly.com/"
-				target="_blank"
-				class="underline duration-200 hover:text-primary-700 cursor-pointer"
-				>Venom Biochemistry Lab</a
-			> at Oregon State University.
+			<NewTabLink href="https://venombiochemistrylab.weebly.com/"
+				>Venom Biochemistry & Molecular Biology Lab</NewTabLink
+			>
+			at Oregon State University
 		</p>
 		<Cta />
 	</div>

@@ -53,6 +53,14 @@
 				<span>Brought to you by</span>
 			</h3>
 		</div>
+		<div class="flex justify-center">
+			<img
+				src="group-24.jpg"
+				class="rounded-lg"
+				alt="venome team picture 2024"
+				width="75%"
+			/>
+		</div>
 		<div class="flex flex-col gap-4 sm:gap-5 md:gap-7 w-full">
 			{#each people as p}
 				<div

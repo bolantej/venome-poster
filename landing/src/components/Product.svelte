@@ -1,6 +1,7 @@
 <script>
 	import ProductCard from "./ProductCard.svelte";
 	import SectionWrap from "./SectionWrap.svelte";
+	import NewTabLink from "./NewTabLink.svelte";
 </script>
 
 <SectionWrap id="project">
@@ -52,18 +53,41 @@
 			</slot>
 		</ProductCard>
 
-		<ProductCard>
+		<ProductCard videoSrc="align-demo.mov">
 			<slot>
 				<span class="text-primary-700">Compare</span> similar proteins
 			</slot>
-			<slot slot="description">here yee</slot>
+			<slot slot="description">
+				<p class="font-light">
+					<span class="font-medium"
+						>State of the art methods to find and compare similar
+						proteins.</span
+					>
+					You can use <NewTabLink
+						href="https://github.com/steineggerlab/foldseek"
+						icon>Foldseek</NewTabLink
+					> within Venome to find structurally similar proteins. Then,
+					you can use <NewTabLink
+						href="https://github.com/kad-ecoli/TMalign"
+						icon>TM-ALign</NewTabLink
+					> within Venome to compare/superimpose them.
+				</p>
+			</slot>
 		</ProductCard>
 
-		<ProductCard reverse>
+		<ProductCard reverse videoSrc="article-demo.mov">
 			<slot>
 				<span class="text-primary-700">Learn</span> with interactive articles
 			</slot>
-			<slot slot="description">here yee</slot>
+			<slot slot="description">
+				<p class="font-light">
+					<span class="font-medium"
+						>Create and view articles with interactive elements.</span
+					>
+					Here the Venom Lab can share their research with the world. They
+					can embed 3D proteins, images, alignments, and more!
+				</p>
+			</slot>
 		</ProductCard>
 	</div>
 </SectionWrap>

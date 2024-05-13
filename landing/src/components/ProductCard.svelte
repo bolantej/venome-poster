@@ -16,7 +16,7 @@
 		>
 			<slot />
 		</h4>
-		<p><slot name="description" /></p>
+		<p class="text-lg"><slot name="description" /></p>
 	</div>
 	<div class={"flex flex-col dropShadow overflow-hidden rounded-b-lg "}>
 		<div
