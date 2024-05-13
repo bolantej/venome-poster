@@ -21,6 +21,7 @@
 		color="light"
 		pill
 		href="https://github.com/xnought/venome"
+		target="_blank"
 		>Open Source <GithubSolid class="ml-1" size="lg" />
 	</Button>
 	<Button
@@ -28,6 +29,7 @@
 		color="light"
 		pill
 		href="https://github.com/Venom-Biochem-Lab/venome-poster/blob/main/posters/2024.TheUnknownVenome.CS.094.pdf"
+		target="_blank"
 		>2024 Engineering Expo Poster <FilePdfSolid class="ml-1" />
 	</Button>
 	<Button size="lg" color="primary" disabled pill

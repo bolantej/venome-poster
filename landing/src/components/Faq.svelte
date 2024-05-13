@@ -80,7 +80,13 @@
 					>
 						{p.name}
 						{#if "link" in p}
-							<Button size="xs" pill outline href={p.link}>
+							<Button
+								size="xs"
+								pill
+								outline
+								href={p.link}
+								target="_blank"
+							>
 								Personal Site <ArrowUpRightFromSquareOutline
 									class="ml-1"
 									size="sm"
