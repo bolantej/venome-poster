@@ -7,16 +7,10 @@
 	<div
 		class="max-w-[1400px] mx-auto w-full flex items-center justify-between p-4 py-6"
 	>
-		<a href="/venome-poster/" class="flex gap-2 text-primary-700">
+		<a href="#" class="flex gap-2 text-primary-700">
 			<Logo />
 			<h1 class="font-semibold">Venome</h1>
 		</a>
-		<button
-			on:click={() => ($openModal = true)}
-			class="md:hidden grid place-items-center"
-		>
-			<i class="fa-solid fa-bars"></i>
-		</button>
 		<nav class="hidden md:flex items-center gap-4 lg:gap-6">
 			<a
 				href="#project"
