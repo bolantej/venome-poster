@@ -56,7 +56,7 @@
 		<div class="flex justify-center">
 			<img
 				src="group-24.jpg"
-				class="rounded-lg"
+				class="rounded-lg dropShadow"
 				alt="venome team picture 2024"
 				width="75%"
 			/>
