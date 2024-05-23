@@ -1,6 +1,6 @@
 # Venome Poster
 
-The landing page advertisment and poster for the 2024 Engineering Expo at Oregon State University.
+The landing page advertisment and poster for the 2024 Engineering Expo at Oregon State University. This is a public artifact to highlight https://github.com/Venom-Biochem-Lab/venome.
 
 The landing page was forked from [Anjasfedo](https://github.com/Anjasfedo) and converted to vanilla svelte with [Flowbite UI components](https://flowbite-svelte.com/). Credit goes to [Anjasfedo](https://github.com/Anjasfedo) please check them out.
 
