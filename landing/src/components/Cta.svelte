@@ -10,7 +10,7 @@
 </script>
 
 <div class="flex items-center gap-4 justify-center flex-wrap">
-	<Button size="lg" color="primary" pill href="#project"
+	<Button size="lg" color="dark" pill href="#project"
 		>Project Overview <span
 			style={reverse ? "transform: rotate(180deg);" : ""}
 			><ArrowDownOutline class="ml-1" /></span
@@ -32,9 +32,11 @@
 		target="_blank"
 		>2024 Engineering Expo Poster <FilePdfSolid class="ml-1" />
 	</Button>
-	<Button size="lg" color="primary" disabled pill
-		>Live Website (🚧 Coming Soon) <ArrowRightOutline
-			class="ml-1"
-		/></Button
+	<Button
+		size="lg"
+		color="primary"
+		pill
+		href="https://venome.cqls.oregonstate.edu"
+		>Live Website<ArrowRightOutline class="ml-1" /></Button
 	>
 </div>
