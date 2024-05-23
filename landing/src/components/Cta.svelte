@@ -20,7 +20,7 @@
 		size="lg"
 		color="light"
 		pill
-		href="https://github.com/xnought/venome"
+		href="https://github.com/venom-biochem-lab/venome"
 		target="_blank"
 		>Open Source <GithubSolid class="ml-1" size="lg" />
 	</Button>
