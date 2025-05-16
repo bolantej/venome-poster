@@ -4,10 +4,10 @@
 	import SectionWrap from "./SectionWrap.svelte";
 	let people = [
 		{
-			name: "Donald (Donny) Bertucci",
-			link: "https://donnybertucci.com",
+			name: "Chase Copeland",
+			link: "https://github.com/chasec22",
 			description:
-				"Senior undergrad, School of EECS at Oregon State University, Incoming PhD student at Georgia Tech.",
+				"Senior undergrad, School of EECS at Oregon State University.",
 		},
 		{
 			name: "Ansen Garvin",

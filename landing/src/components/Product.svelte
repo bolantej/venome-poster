@@ -72,7 +72,11 @@
 					you can use <NewTabLink
 						href="https://github.com/kad-ecoli/TMalign"
 						icon>TM-Align</NewTabLink
-					> within Venome to compare/superimpose them.
+					> within Venome to compare/superimpose them. 
+					You can compare between proteins in our database or, 
+					with proteins from the <NewTabLink 
+						href="https://www.wwpdb.org/"
+						icon>Worldwide Protein Database</NewTabLink>.
 				</p>
 			</slot>
 		</ProductCard>
