@@ -18,16 +18,12 @@ jobs:
               uses: actions/setup-node@v3
 
             - name: install
-              uses: borales/actions-yarn@v4
-              with:
-                  cmd: install # will run `yarn install` command
-                  dir: "./landing"
+              run: yarn install
+              working-directory: ./landing
 
             - name: build
-              uses: borales/actions-yarn@v4
-              with:
-                  cmd: build # will run `yarn build` command
-                  dir: "./landing"
+              run: yarn build
+              working-directory: ./landing
 
             - name: Upload production-ready build files
               uses: actions/upload-artifact@v3
