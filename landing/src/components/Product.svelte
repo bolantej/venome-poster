@@ -23,19 +23,6 @@
 			</h3>
 		</div>
 
-		<ProductCard videoSrc="search-demo.mov">
-			<slot>
-				<span class="text-primary-700">Sort</span> your searches
-			</slot>
-			<slot slot="description">
-				<p class="font-light">
-					<span class="font-medium"
-						>Look through the smallest and largest proteins.</span
-					> You can sort by any of the computed insighted that we have 
-					  calculated on the site as well as filtering by them too.
-				</p>
-			</slot>
-		</ProductCard>
 
 		<ProductCard reverse videoSrc="view-demo.mov">
 			<slot>
@@ -46,8 +33,8 @@
 					<span class="font-medium"
 						>Find the differences between AlphaFold 2 and AlphaFold 3.</span
 					>
-					You can swap between between the different predictions to find the similarities
-					and differences between them.
+					Swap between between the different predictions for each protein to find the similarities
+					and differences.
 
 				</p>
 			</slot>
@@ -69,6 +56,20 @@
 			</slot>
 		</ProductCard>
 
+		<ProductCard videoSrc="search-demo.mov">
+			<slot>
+				<span class="text-primary-700">Sort</span> your searches
+			</slot>
+			<slot slot="description">
+				<p class="font-light">
+					<span class="font-medium"
+						>Look through the smallest and largest proteins.</span
+					> You can sort by any of the computed insighted that we have 
+					  calculated on the site as well as filtering by them too.
+				</p>
+			</slot>
+		</ProductCard>
+
 		<ProductCard reverse videoSrc="article-demo.mov">
 			<slot>
 				<span class="text-primary-700">View</span> new computed insights
@@ -81,7 +82,11 @@
 					Use <NewTabLink
 					href="https://github.com/steineggerlab/foldseek"
 					icon>Foldseek</NewTabLink
-					> to find structually similar proteins to each protein in our venome database.
+					> to find other proteins from the <NewTabLink
+					href="https://www.rcsb.org/"
+					icon>PDB Databank</NewTabLink
+					> that are structually similar to proteins in our venome database. Additionally the atom count is
+					now displayed for each protein.
 				</p>
 			</slot>
 		</ProductCard>
