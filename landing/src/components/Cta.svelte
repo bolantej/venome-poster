@@ -30,7 +30,15 @@
 		pill
 		href="https://github.com/Venom-Biochem-Lab/venome-poster/blob/main/posters/2025.ExpoPoster.034.pdf"
 		target="_blank"
-		>2025 Engineering Expo Poster <FilePdfSolid class="ml-1" />
+		>2025 Engineering Expo Poster <FilePdfSolid class="ml-1" />	
+	</Button>
+	<Button
+		size="lg"
+		color="light"
+		pill
+		href="https://venom-biochem-lab.github.io/venome-poster/#project"
+		target="_blank"
+		>2024 Capstone Landing Page <FilePdfSolid class="ml-1" />
 	</Button>
 	<Button
 		size="lg"

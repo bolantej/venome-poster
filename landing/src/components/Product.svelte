@@ -30,7 +30,7 @@
 			<slot slot="description">
 				<p class="font-light">
 					<span class="font-medium"
-						>Look through the smallest and largest proteins</span
+						>Look through the smallest and largest proteins.</span
 					> You can sort by any of the computed insighted that we have 
 					  calculated on the site as well as filtering by them too.
 				</p>
@@ -60,7 +60,7 @@
 			<slot slot="description">
 				<p class="font-light">
 					<span class="font-medium"
-						>Improved site moderation and protein approval system</span
+						>Improved site moderation and protein approval system.</span
 					>
 					Admins of the site now have the ability to approve and deny protein uploads requested by the users.
 					There is also now a user interface for the admins to manage the users directly in the site, including

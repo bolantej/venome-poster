@@ -51,6 +51,12 @@
 			description:
 				"Associate Professor, Department of Biochemistry & Biophysics, Linus Pauling Institute, Venom Biochemistry Lab.",
 		},
+		{
+			name: "2024 Venome Capstone Group",
+			link: "https://venom-biochem-lab.github.io/venome-poster/",
+			description:
+				"Donald (Donny) Bertucci, Ansen Garvin, Cora Bailey, and Amanda Sinha",
+		},
 	];
 </script>
 
