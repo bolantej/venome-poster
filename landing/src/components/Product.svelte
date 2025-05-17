@@ -25,73 +25,63 @@
 
 		<ProductCard videoSrc="search-demo.mov">
 			<slot>
-				<span class="text-primary-700">Search</span> Hundreds of Venom Proteins
+				<span class="text-primary-700">Sort</span> your searches
 			</slot>
 			<slot slot="description">
 				<p class="font-light">
 					<span class="font-medium"
-						>Find the protein you're looking for.</span
-					> You can keyword search the Venom Lab's over 400 proteins found
-					in wasp venoms. You can narrow down the possibilities by applying
-					length, weight, or organism filters too.
+						>Look through the smallest and largest proteins</span
+					> You can sort by any of the computed insighted that we have 
+					  calculated on the site as well as filtering by them too.
 				</p>
 			</slot>
 		</ProductCard>
 
 		<ProductCard reverse videoSrc="view-demo.mov">
 			<slot>
-				<span class="text-primary-700">View</span> protein structure
+				<span class="text-primary-700">Compare</span> between protein prediction softwares
 			</slot>
 			<slot slot="description">
 				<p class="font-light">
 					<span class="font-medium"
-						>Interact with the protein directly.</span
+						>Find the differences between AlphaFold 2 and AlphaFold 3.</span
 					>
-					You can view the 3D structure of the protein and learn about
-					the provided information (like organism, method, and more). You
-					can also view computed algorithms on the data in the
-					<i>Computed Insights</i> section of the protein.
+					You can swap between between the different predictions to find the similarities
+					and differences between them.
+
 				</p>
 			</slot>
 		</ProductCard>
 
 		<ProductCard videoSrc="align-demo.mov">
 			<slot>
-				<span class="text-primary-700">Compare</span> similar proteins
+				<span class="text-primary-700">Manage</span> protein uploads and users
 			</slot>
 			<slot slot="description">
 				<p class="font-light">
 					<span class="font-medium"
-						>State of the art methods to find and compare similar
-						proteins.</span
+						>Improved site moderation and protein approval system</span
 					>
-					You can use <NewTabLink
-						href="https://github.com/steineggerlab/foldseek"
-						icon>Foldseek</NewTabLink
-					> within Venome to find structurally similar proteins. Then,
-					you can use <NewTabLink
-						href="https://github.com/kad-ecoli/TMalign"
-						icon>TM-Align</NewTabLink
-					> within Venome to compare/superimpose them. 
-					You can compare between proteins in our database or, 
-					with proteins from the <NewTabLink 
-						href="https://www.wwpdb.org/"
-						icon>Worldwide Protein Database</NewTabLink>.
+					Admins of the site now have the ability to approve and deny protein uploads requested by the users.
+					There is also now a user interface for the admins to manage the users directly in the site, including
+					the ability to delete users, and promote them to admins, as well as look through their uploaded proteins.
 				</p>
 			</slot>
 		</ProductCard>
 
 		<ProductCard reverse videoSrc="article-demo.mov">
 			<slot>
-				<span class="text-primary-700">Learn</span> with interactive articles
+				<span class="text-primary-700">View</span> new computed insights
 			</slot>
 			<slot slot="description">
 				<p class="font-light">
 					<span class="font-medium"
-						>Create and view articles with interactive elements.</span
+						>Look through the most relevant proteins in PDB database and the atom count for each protein.</span
 					>
-					Here the Venom Lab can share their research with the world. They
-					can embed 3D proteins, images, alignments, and more!
+					Use <NewTabLink
+					href="https://github.com/steineggerlab/foldseek"
+					icon>Foldseek</NewTabLink
+					> to find structually similar proteins to each protein in our venome database.
 				</p>
 			</slot>
 		</ProductCard>
