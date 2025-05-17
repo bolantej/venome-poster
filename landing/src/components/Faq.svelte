@@ -4,28 +4,40 @@
 	import SectionWrap from "./SectionWrap.svelte";
 	let people = [
 		{
+			name: "Ethan Peterson",
+			link: "https://github.com/EthanPeterson55?tab=repositories",
+			description:
+				"Senior undergrad, School of EECS at Oregon State University",
+		},
+		{
+			name: "Jace Bolante",
+			link: "https://github.com/bolantej",
+			description:
+				"Senior undergrad, School of EECS at Oregon State University.",
+		},
+		{
+			name: "Megan Dorn",
+			link: "https://github.com/MDorn03",
+			description:
+				"Senior undergrad, School of EECS at Oregon State University.",
+		},
+		{
+			name: "Alex Clark",
+			link: "https://github.com/arc25275",
+			description:
+				"Senior undergrad, School of EECS at Oregon State University.",
+		},
+		{
+			name: "Alex Holly",
+			link: "https://github.com/AlexHolly007",
+			description:
+				"Senior undergrad, School of EECS at Oregon State University",
+		},
+		{
 			name: "Chase Copeland",
 			link: "https://github.com/chasec22",
 			description:
-				"Senior undergrad, School of EECS at Oregon State University.",
-		},
-		{
-			name: "Ansen Garvin",
-			link: "http://ansengarvin.com",
-			description:
-				"Senior undergrad, School of EECS at Oregon State University.",
-		},
-		{
-			name: "Cora Bailey",
-			link: "https://www.linkedin.com/in/cora-bailey-a08004243/",
-			description:
-				"Senior undergrad, School of EECS at Oregon State University.",
-		},
-		{
-			name: "Amanda Sinha",
-			link: "https://www.linkedin.com/in/amanda-sinha-310b6921b/",
-			description:
-				"Senior undergrad, School of EECS at Oregon State University.",
+				"Senior undergrad, School of EECS at Oregon State University",
 		},
 		{
 			name: "Michael Youkhateh",
@@ -56,14 +68,7 @@
 				<span>Brought to you by</span>
 			</h3>
 		</div>
-		<div class="flex justify-center">
-			<img
-				src="group-24.jpg"
-				class="rounded-lg dropShadow"
-				alt="venome team picture 2024"
-				width="75%"
-			/>
-		</div>
+
 		<div class="flex flex-col gap-4 sm:gap-5 md:gap-7 w-full">
 			{#each people as p}
 				<div
