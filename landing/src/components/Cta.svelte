@@ -28,7 +28,7 @@
 		size="lg"
 		color="light"
 		pill
-		href="https://github.com/Venom-Biochem-Lab/venome-poster/blob/main/posters/2025.ExpoPoster.034.pdf"
+		href="https://github.com/bolantej/venome-poster/blob/main/posters/2025.ExpoPoster.034.pdf"
 		target="_blank"
 		>2025 Engineering Expo Poster <FilePdfSolid class="ml-1" />	
 	</Button>
