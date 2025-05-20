@@ -24,7 +24,7 @@
 		</div>
 
 
-		<ProductCard reverse videoSrc="view-demo.mov">
+		<ProductCard reverse videoSrc="protein-view.mov">
 			<slot>
 				<span class="text-primary-700">Compare</span> between protein prediction softwares
 			</slot>
@@ -40,7 +40,7 @@
 			</slot>
 		</ProductCard>
 
-		<ProductCard videoSrc="align-demo.mov">
+		<ProductCard videoSrc="admin-user.mov">
 			<slot>
 				<span class="text-primary-700">Manage</span> protein uploads and users
 			</slot>
@@ -56,7 +56,7 @@
 			</slot>
 		</ProductCard>
 
-		<ProductCard videoSrc="search-demo.mov">
+		<ProductCard videoSrc="sort-proteins.mov">
 			<slot>
 				<span class="text-primary-700">Sort</span> your searches
 			</slot>
@@ -70,7 +70,7 @@
 			</slot>
 		</ProductCard>
 
-		<ProductCard reverse videoSrc="article-demo.mov">
+		<ProductCard reverse videoSrc="foldseek.mov">
 			<slot>
 				<span class="text-primary-700">View</span> new computed insights
 			</slot>
